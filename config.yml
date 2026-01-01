@@ -50,12 +50,14 @@ params:
           imageWidth: 220 
           imageHeight: 220 
           buttons:
-            - name: CV
-              url: Resume_Yanis.pdf
+            - name: "CV (FR)"
+              url: "Resume_Yanis_French.pdf"
+            - name: "CV (EN)"
+              url: "Resume_Yanis.pdf"
             - name: Projects
-              url: projects/
+              url: "projects/"
             - name: Skills
-              url: skills/
+              url: "skills/"
 
 
     socialIcons:
