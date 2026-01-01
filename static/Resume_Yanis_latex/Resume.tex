@@ -1,0 +1,52 @@
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+\documentclass[letterpaper,12pt]{fed-res} % See the fed-res.cls file to import packages and edit formatting/style
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref} % Pour des liens cliquables et propres
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	HEADING INFORMATION
+%-------------------------------------------------------------------------------
+\begin{center}
+    {\Huge \scshape Yanis Stentzel} \\ \vspace{10pt}
+    
+    % Ligne 1 : Téléphone, Mail, LinkedIn
+    \small
+    \faPhone* \ +336 81 26 83 65 \quad 
+    \faEnvelope \ \href{mailto:yanistentzl@icloud.com}{yanistentzl@icloud.com} \quad 
+    \faLinkedin \ \href{https://linkedin.com/in/yanis-stentzel}{linkedin.com/in/yanis-stentzel} \\ \vspace{4pt} 
+    
+    % Ligne 2 : Site Web Personnel 
+    \faGlobe \ \href{https://yanisstentzel.github.io/}{https://yanisstentzel.github.io/}
+\end{center}
+
+\vspace{5pt}
+
+\hrule 
+\vspace{10pt}
+%-------------------------------------------------------------------------------
+%	RESUME CONTENT
+%-------------------------------------------------------------------------------
+\input{Resume Sections/Introduction}
+
+\vspace{15pt} 
+
+%-----------EDUCATION----------- 
+\input{Resume Sections/Education}
+
+%-----------WORK EXPERIENCE----------- 
+\input{Resume Sections/Work Experience}
+
+%-----------PROJECTS-----------
+\section{Academic \& Personal Projects}
+\input{Resume Sections/Projects}
+
+%-----------REFERENCES-----------
+\input{Resume Sections/References}
+
+\end{document}
