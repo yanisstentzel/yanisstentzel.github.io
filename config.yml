@@ -49,7 +49,6 @@ params:
           imageUrl: "YanisSTENTZELPhoto.jpg"
           imageWidth: 220 
           imageHeight: 220 
-          imageBorder: 8
           buttons:
             - name: CV
               url: Resume_Yanis.pdf

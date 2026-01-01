@@ -1,0 +1,9 @@
+/* Cible l'image du mode profil */
+.profile_inner img {
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 50% !important; 
+    object-fit: cover !important;  
+    margin-bottom: 20px !important;
+    border: none !important;    
+}
