@@ -43,7 +43,7 @@ This academic project, developed in collaboration **[Jonathan Wild](https://www.
 
 ##### Links
 
-+ [GitHub Repository](https://github.com/yanisstentzel/lego-api-project)
++ [GitHub Repository](https://github.com/yanisstentzel/academicprojects/tree/main/Programming/Lego%20Sets%20Collector%20%E2%80%93%20API%20Integration)
 
 ---
 
