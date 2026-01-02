@@ -1,7 +1,7 @@
 ---
 title: "Mastocytosis Patient Survey – Data Analysis & Visualization" 
 date: 2025-02-15
-order: 2
+order: 1
 show_date: false
 url: /mastocytosis_project_kaggle/
 aliases: 

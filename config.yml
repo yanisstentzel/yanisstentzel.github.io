@@ -23,13 +23,13 @@ params:
     description: "Undegraduate Student @UGA & @IUT2 Grenoble"
     author: Yanis Stentzel
     DateFormat: "January 2006"
-    defaultTheme: light
     hideFooter: false
-    disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
+    defaultTheme: auto 
+    disableThemeToggle: false 
     ShowPostNavLinks: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true

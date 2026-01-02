@@ -1,7 +1,7 @@
 ---
 title: "House Rental Revenue Index – Time Series Analysis & Forecasting" 
 date: 2025-10-15
-order: 1
+order: 2
 show_date: false
 url: /forecasting/
 aliases: 
