@@ -20,7 +20,7 @@ menu:
  
 
 params:
-    description: "Undegraduate Student @UGA & @IUT2 Grenoble"
+    description: "Undergraduate Student @UGA & @IUT2 Grenoble"
     author: Yanis Stentzel
     DateFormat: "January 2006"
     hideFooter: false
@@ -45,7 +45,7 @@ params:
     profileMode:
           enabled: true
           title: Yanis STENTZEL
-          subtitle: "Undegraduate Student @UGA & @IUT2 Grenoble"
+          subtitle: "Undergraduate Student @UGA & @IUT2 Grenoble"
           imageUrl: "YanisSTENTZELPhoto.jpg"
           imageWidth: 220 
           imageHeight: 220 
