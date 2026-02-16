@@ -1,4 +1,4 @@
-baseURL: "yanisstentzel.github.io" 
+baseURL: "https://yanisstentzel.github.io/"
 title: Yanis STENTZEL
 theme: PaperMod
 
@@ -20,7 +20,7 @@ menu:
  
 
 params:
-    description: "Undergraduate Student @UGA & @IUT2 Grenoble"
+    description: "Portfolio of Yanis Stentzel, Undergraduate Student @UGA & @IUT2 Grenoble"
     author: Yanis Stentzel
     DateFormat: "January 2006"
     hideFooter: false
@@ -30,6 +30,8 @@ params:
     disableAnchoredHeadings: true
     defaultTheme: auto 
     disableThemeToggle: false 
+    images: ["YanisSTENTZELPhoto.jpg"]
+    schema: true
     ShowPostNavLinks: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
