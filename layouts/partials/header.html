@@ -3,6 +3,7 @@
 {{- /* theme is light */}}
 {{- if (eq site.Params.defaultTheme "light") }}
 <script>
+    // Apply saved theme before render to prevent a flash of the wrong theme.
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     }
@@ -11,6 +12,7 @@
 {{- /* theme is dark */}}
 {{- else if (eq site.Params.defaultTheme "dark") }}
 <script>
+    // Respect an explicit light override even when dark is the default.
     if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
     }
@@ -19,6 +21,7 @@
 {{- else }}
 {{- /* theme is auto */}}
 <script>
+    // Auto mode: first honor localStorage, then fall back to system preference.
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
@@ -32,6 +35,7 @@
 {{- /* theme-toggle is disabled and theme is auto */}}
 {{- else if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark"))}}
 <script>
+    // When toggle is disabled, follow system preference for accessibility.
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
