@@ -1,4 +1,4 @@
-baseURL: "yanisstentzel.github.io" 
+baseURL: "https://yanisstentzel.github.io/"
 title: Yanis STENTZEL
 theme: PaperMod
 
@@ -8,6 +8,11 @@ enableRobotsTXT: true
 
 taxonomies:
     tag: tags
+
+sitemap:
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
 
 menu:
     main:
@@ -22,6 +27,13 @@ menu:
 params:
     description: "Undergraduate Student @UGA & @IUT2 Grenoble"
     author: Yanis Stentzel
+    keywords:
+        - Yanis Stentzel
+        - Portfolio
+        - Projects
+        - Skills
+    images:
+        - YanisSTENTZELPhoto.jpg
     DateFormat: "January 2006"
     hideFooter: false
     ShowShareButtons: false

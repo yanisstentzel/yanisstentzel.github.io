@@ -1,5 +1,19 @@
 # Hugo build artifacts
-public/
-resources/
+/public/
+/resources/
+resources/_gen/
 .hugo_build.lock
+
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Other common development artifacts
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/

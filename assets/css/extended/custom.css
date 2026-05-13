@@ -1,4 +1,4 @@
-/* Cible l'image du mode profil */
+/* Keep the homepage profile photo consistently circular at a fixed size across layouts. */
 .profile_inner img {
     width: 220px !important;
     height: 220px !important;
