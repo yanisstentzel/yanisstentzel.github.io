@@ -1,3 +1,4 @@
+/* Internal section styles below are intended for internal prototypes. */
 /* Keep the homepage profile photo consistently circular at a fixed size across layouts. */
 .profile_inner img {
     width: 220px !important;
