@@ -12,33 +12,32 @@ TocOpen: false
 ---
 
 ## Context
-This project was carried out as part of the SAÉ 4.02 module (Reporting of a multivariate analysis) during my Bachelor of Technology (BUT) in Data Science[cite: 6]. Working alongside my classmates Adil Boukhari, Nessrine Rezgui, and Jonathan Wild, the objective was to design an automated reporting tool to present the results of an exploratory data analysis[cite: 6, 7]. 
+This project was carried out as part of the SAÉ 4.02 module (Reporting of a multivariate analysis) during my Bachelor of Technology (BUT) in Data Science. Working alongside my classmates Adil Boukhari, Nessrine Rezgui, and Jonathan Wild, the objective was to design an automated reporting tool to present the results of an exploratory data analysis. 
 
-The core problematic focused on open data regarding healthcare professionals and pathologies: *Can we highlight territorial inequalities in access to healthcare based on available indicators, and is it possible to identify typical territorial profiles?*[cite: 6]
+The core problematic focused on open data regarding healthcare professionals and pathologies: *Can we highlight territorial inequalities in access to healthcare based on available indicators, and is it possible to identify typical territorial profiles?*
 
 ➔ **[View the complete repository and R code on GitHub](https://github.com/yanisstentzel/academicprojects/tree/main/Statistics%3AReport/SAE-Reporting)**
 
-![Healthcare Dashboard Preview](/projects/your-shiny-app-screenshot.png)
-*(Replace `/projects/your-shiny-app-screenshot.png` with a screenshot of your Shiny app's map or analysis tab)*
+![Healthcare Dashboard Preview](/projects/SAE-Reporting.png)
 
 ## Statistical Methodology
-To answer the problematic, we applied a complete exploratory data analysis workflow[cite: 6]:
-- **Correspondence Analysis (CA / AFC):** We analyzed the distribution of medical professions and pathologies across French departments[cite: 7, 8]. For professions, the first axis explained 69.1% of the total inertia and was heavily structured by General Medicine[cite: 7]. For pathologies, the first axis explained 43.46% of the inertia, strongly driven by Endocrinology and Infectious Diseases[cite: 7].
-- **Clustering (HAC & K-Means):** We used Hierarchical Agglomerative Clustering (CAH) and Partitioning Around Medoids (PAM) to group departments into distinct clusters (e.g., $k=3$ for professions and $k=4$ for pathologies)[cite: 7, 8]. This clustering helped us highlight stark contrasts, showing that some rural departments appear medically "empty" compared to highly populated urban ones[cite: 7].
+To answer the problematic, we applied a complete exploratory data analysis workflow :
+- **Correspondence Analysis (CA / AFC):** We analyzed the distribution of medical professions and pathologies across French departments. For professions, the first axis explained 69.1% of the total inertia and was heavily structured by General Medicine. For pathologies, the first axis explained 43.46% of the inertia, strongly driven by Endocrinology and Infectious Diseases.
+- **Clustering (HAC & K-Means):** We used Hierarchical Agglomerative Clustering (CAH) and Partitioning Around Medoids (PAM) to group departments into distinct clusters (e.g., $k=3$ for professions and $k=4$ for pathologies). This clustering helped us highlight stark contrasts, showing that some rural departments appear medically "empty" compared to highly populated urban ones.
 
 ## The R Shiny Application
-Instead of a static written report, the final deliverable was a user-friendly, interactive R Shiny application that guides the user through the data and the statistical findings[cite: 6, 8]. 
+Instead of a static written report, the final deliverable was a user-friendly, interactive R Shiny application that guides the user through the data and the statistical findings. 
 
 Key features of the dashboard include:
-- **Interactive Cartography:** Integration of `leaflet` to display choropleth maps of France (including overseas territories/DOM), visualizing the workforce and density (per 100k inhabitants) of various medical specialties and pathologies[cite: 8].
-- **Dynamic Filtering:** Users can filter data either by specific detail (e.g., a specific ALD or profession) or by broader, aggregated groups to simplify readability[cite: 8].
-- **Real-Time Analysis Tab:** A dedicated section where users can trigger Correspondence Analysis (CA) or Hierarchical Clustering (HAC) on the fly, dynamically adjusting parameters like the number of clusters ($k$) through a slider[cite: 8]. The app automatically generates the corresponding dendrograms, PCA projections, and class profiles[cite: 8].
-- **Synthesis & Quality Control:** Automated generation of "Top N" charts (using `ggplot2`) for categories and departments, alongside a data quality panel checking for missing values and duplicates[cite: 8].
+- **Interactive Cartography:** Integration of `leaflet` to display choropleth maps of France (including overseas territories/DOM), visualizing the workforce and density (per 100k inhabitants) of various medical specialties and pathologies.
+- **Dynamic Filtering:** Users can filter data either by specific detail (e.g., a specific ALD or profession) or by broader, aggregated groups to simplify readability.
+- **Real-Time Analysis Tab:** A dedicated section where users can trigger Correspondence Analysis (CA) or Hierarchical Clustering (HAC) on the fly, dynamically adjusting parameters like the number of clusters ($k$) through a slider. The app automatically generates the corresponding dendrograms, PCA projections, and class profiles.
+- **Synthesis & Quality Control:** Automated generation of "Top N" charts (using `ggplot2`) for categories and departments, alongside a data quality panel checking for missing values and duplicates.
 
 ## Technologies Used
 - **Language:** R[cite: 8]
-- **Web Framework:** `shiny`, `shinymaterial` (for UI design)[cite: 8]
-- **Data Manipulation:** `dplyr`, `readr`[cite: 8]
-- **Multivariate Statistics:** `FactoMineR` (for CA/AFC), `stats` (for HAC)[cite: 8]
-- **Data Visualization:** `ggplot2`, `leaflet` (interactive mapping)[cite: 8]
-- **Spatial Data:** `sf`, `terra`[cite: 8]
+- **Web Framework:** `shiny`, `shinymaterial` (for UI design)
+- **Data Manipulation:** `dplyr`, `readr`
+- **Multivariate Statistics:** `FactoMineR` (for CA/AFC), `stats` (for HAC)
+- **Data Visualization:** `ggplot2`, `leaflet` (interactive mapping)
+- **Spatial Data:** `sf`, `terra`
