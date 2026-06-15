@@ -72,11 +72,11 @@ description: "logos of skills and else."
         <div class="title">PowerBI</div>
     </div>
      <div>
-        <img class="logo" src="/skills/excel.png" alt="Excel">
+        <img class="logo" src="/skills/excel.svg" alt="Excel">
         <div class="title">Excel</div>
     </div>
     <div>
-        <img class="logo" src="/skills/qlik.png" alt="Qlik">
+        <img class="logo" src="/skills/qlik.svg" alt="Qlik">
         <div class="title">Qlik</div>
     </div>
 </div>
