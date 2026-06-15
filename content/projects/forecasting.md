@@ -6,7 +6,7 @@ show_date: false
 url: /forecasting/
 aliases: 
     - /forecasting.html
-tags: []
+tags: ["R", "Data Analysis"]
 author: "Yanis Stentzel, Academic Project @IUT2 Grenoble"
 summary: "Comprehensive statistical analysis of the French housing rental revenue index (2010–2015). This project involves seasonal decomposition, trend modeling using linear regression, and short-term forecasting using the Holt-Winters method to predict market evolution."
 cover:

@@ -8,7 +8,10 @@ weight: 3
 showToc: true
 TocOpen: false
 
-
+cover:
+    image: "/projects/SAE-Reporting.png#center"
+    alt: "Healthcare dashboard preview"
+    relative: true 
 ---
 
 ## Context

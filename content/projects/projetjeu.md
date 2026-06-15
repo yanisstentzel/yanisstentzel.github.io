@@ -10,7 +10,7 @@ TocOpen: false
 
 cover:
     image: "/projects/cassebrique.png#center"
-    alt: "Time Series Analysis Graph"
+    alt: "Screenshot of the app"
     relative: true 
 ---
 
