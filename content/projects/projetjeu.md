@@ -7,10 +7,17 @@ categories: ["Academic Projects"]
 weight: 2
 showToc: true
 TocOpen: false
+
+cover:
+    image: "/projects/cassebrique.png#center"
+    alt: "Time Series Analysis Graph"
+    relative: true 
 ---
 
 ## Context
 This project was entirely developed as part of the **R3.03 Web Technologies** module during my second year of the Bachelor of Technology (BUT) in Data Science. The goal was to design an interactive, smooth, and accessible web application directly in the browser, relying solely on web standards without using any external frameworks or game engines.
+
+➔ **[View the complete repository on GitHub](https://github.com/yanisstentzel/academicprojects/tree/main/Programming/ProjetJeu)**
 
 ![Brick Breaker Game Preview](/projects/cassebrique.png)
 
