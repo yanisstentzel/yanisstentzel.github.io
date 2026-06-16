@@ -32,6 +32,7 @@ params:
         - Portfolio
         - Projects
         - Skills
+        - Running
     images:
         - YanisSTENTZELPhoto.jpg
     DateFormat: "January 2006"
@@ -46,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["books","courses","papers","data","running"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -70,6 +71,8 @@ params:
               url: "projects/"
             - name: Skills
               url: "skills/"
+            - name: Running
+              url: "running/"
 
 
     socialIcons:
