@@ -1,16 +1,16 @@
 ---
 title: "Brick Breaker Game"
 description: "Development of a classic arcade game using Vanilla JS, HTML5 Canvas, and CSS3."
+summary: "A classic brick breaker built from scratch with Vanilla JavaScript and the HTML5 Canvas API: custom game loop, AABB collision detection, and a persistent high score stored in the browser."
 date: 2025-12-10
 tags: ["JavaScript", "HTML5 Canvas", "CSS3", "Web Development"]
 categories: ["Academic Projects"]
-weight: 2
 showToc: true
 TocOpen: false
 
 cover:
     image: "/projects/cassebrique.png#center"
-    alt: "Screenshot of the app"
+    alt: "Brick Breaker game screen with paddle, ball and rows of bricks"
     relative: true 
 ---
 
@@ -50,3 +50,4 @@ if (score > highScore) {
     localStorage.setItem("bestScore", highScore); // Save the new record
     alert("NEW RECORD! You won!");
 }
+```

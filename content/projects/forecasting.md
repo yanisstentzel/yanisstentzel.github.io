@@ -1,7 +1,6 @@
 ---
 title: "House Rental Revenue Index – Time Series Analysis & Forecasting" 
 date: 2025-10-15
-order: 2
 show_date: false
 url: /forecasting/
 aliases: 
@@ -22,7 +21,7 @@ cover:
 
 This project focuses on the study of the **Revenue Index (ICA)** for the housing rental sector in France from January 2010 to December 2015. The analysis follows a rigorous statistical workflow:
 1. **Decomposition**: Implementation of a multiplicative model to separate the trend from marked seasonal variations.
-2. **Modeling**: The underlying trend was modeled using simple linear regression ($\hat{T}t = 71.40 + 0.356 \times t$), validated by a detailed residual analysis to ensure model reliability.
+2. **Modeling**: The underlying trend was modeled using simple linear regression ($\hat{T}_t = 71.40 + 0.356 \times t$), validated by a detailed residual analysis to ensure model reliability.
 3. **Forecasting**: Comparison between parametric modeling and the **Holt-Winters** non-parametric method. The study concludes with a 2016 growth forecast, anticipating a peak index of approximately 126.85 by year-end.
 
 ---

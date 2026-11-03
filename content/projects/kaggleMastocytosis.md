@@ -1,7 +1,6 @@
 ---
 title: "Mastocytosis Patient Survey – Data Analysis & Visualization" 
 date: 2025-02-15
-order: 1
 show_date: false
 url: /mastocytosis_project_kaggle/
 aliases: 
@@ -11,18 +10,18 @@ author: "Yanis Stentzel, Personal Project"
 summary: "Developed and published a dataset on Kaggle to analyze patient-reported experiences with mastocytosis, a rare mast cell disease. The project includes anonymized survey data, structured CSV files, and exploratory analyses on symptoms, triggers, and treatments, with the goal of supporting research and awareness."
 cover:
     image: "/projects/mastocytosis.png#center"
-    alt: ""
+    alt: "Charts from the mastocytosis patient survey analysis"
     relative: true 
 
 ---
 
 ---
 
-##### Link
+##### Links
 
-+ [Kaggle dataset   ](https://www.kaggle.com/datasets/yanisstentzel/mastocytosis-patient-survey)
-+ [Kaggle Notebook   ](https://www.kaggle.com/code/yanisstentzel/notebook-analyze-mastocytosis)
-+ [GitHub with data and python processing code   ](https://github.com/yanisstentzel/data-analysis/tree/main/mastocytosis-analysis)
++ [Kaggle dataset](https://www.kaggle.com/datasets/yanisstentzel/mastocytosis-patient-survey)
++ [Kaggle notebook](https://www.kaggle.com/code/yanisstentzel/notebook-analyze-mastocytosis)
++ [GitHub with data and Python processing code](https://github.com/yanisstentzel/data-analysis/tree/main/mastocytosis-analysis)
 
 
 ---

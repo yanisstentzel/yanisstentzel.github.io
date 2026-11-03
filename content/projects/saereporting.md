@@ -1,10 +1,10 @@
 ---
 title: "Healthcare Supply in France: Multivariate Analysis"
-description: "Development of an interactive R Shiny dashboard to analyze and report territorial disparities in French healthcare using multivariate statistics (CA, HAC). Repository available on [GitHub](https://github.com/yanisstentzel/academicprojects/tree/main/Statistics%3AReport/SAE-Reporting)."
+description: "Development of an interactive R Shiny dashboard to analyze and report territorial disparities in French healthcare using multivariate statistics (CA, HAC)."
+summary: "An interactive R Shiny dashboard analysing territorial inequalities in French healthcare access, combining Correspondence Analysis, hierarchical clustering and Leaflet maps of every department."
 date: 2026-03-27
 tags: ["R", "Shiny", "Data Analysis", "Multivariate Statistics", "Leaflet", "FactoMineR"]
 categories: ["Academic Projects"]
-weight: 3
 showToc: true
 TocOpen: false
 
@@ -24,9 +24,9 @@ The core problematic focused on open data regarding healthcare professionals and
 ![Healthcare Dashboard Preview](/projects/SAE-Reporting.png)
 
 ## Statistical Methodology
-To answer the problematic, we applied a complete exploratory data analysis workflow :
+To answer the problematic, we applied a complete exploratory data analysis workflow:
 - **Correspondence Analysis (CA / AFC):** We analyzed the distribution of medical professions and pathologies across French departments. For professions, the first axis explained 69.1% of the total inertia and was heavily structured by General Medicine. For pathologies, the first axis explained 43.46% of the inertia, strongly driven by Endocrinology and Infectious Diseases.
-- **Clustering (HAC & K-Means):** We used Hierarchical Agglomerative Clustering (CAH) and Partitioning Around Medoids (PAM) to group departments into distinct clusters (e.g., $k=3$ for professions and $k=4$ for pathologies). This clustering helped us highlight stark contrasts, showing that some rural departments appear medically "empty" compared to highly populated urban ones.
+- **Clustering (HAC & K-Means):** We used Hierarchical Agglomerative Clustering (HAC) and Partitioning Around Medoids (PAM) to group departments into distinct clusters (e.g., $k=3$ for professions and $k=4$ for pathologies). This clustering helped us highlight stark contrasts, showing that some rural departments appear medically "empty" compared to highly populated urban ones.
 
 ## The R Shiny Application
 Instead of a static written report, the final deliverable was a user-friendly, interactive R Shiny application that guides the user through the data and the statistical findings. 
@@ -38,7 +38,7 @@ Key features of the dashboard include:
 - **Synthesis & Quality Control:** Automated generation of "Top N" charts (using `ggplot2`) for categories and departments, alongside a data quality panel checking for missing values and duplicates.
 
 ## Technologies Used
-- **Language:** R[cite: 8]
+- **Language:** R
 - **Web Framework:** `shiny`, `shinymaterial` (for UI design)
 - **Data Manipulation:** `dplyr`, `readr`
 - **Multivariate Statistics:** `FactoMineR` (for CA/AFC), `stats` (for HAC)

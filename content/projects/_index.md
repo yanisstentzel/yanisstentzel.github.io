@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: ""
+description: "Data analysis, statistics and development projects by Yanis Stentzel."
 ---

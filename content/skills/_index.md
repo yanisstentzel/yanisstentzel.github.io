@@ -1,32 +1,26 @@
 ---
 title: "Skills"
-description: "logos of skills and else."
+description: "Technical skills of Yanis Stentzel: data analysis, statistics, BI and development tools."
 ---
 
 
 ---
-
-## Skills
-
-### Programming & Data
-
-<div>
 
 <style>
-    #skills-grid {
+    .skills-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 5px;
     }
 
-    #skills-grid > div {
+    .skills-grid > div {
         padding: .5em;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
 
-    #skills-grid > div > img {
+    .skills-grid > div > img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -34,7 +28,14 @@ description: "logos of skills and else."
     }
 </style>
 
-<div id="skills-grid">
+## Skills
+
+### Programming & Data
+
+<div>
+
+
+<div class="skills-grid">
     <div>
         <img class="logo" src="/skills/python.svg" alt="Python Language">
         <div class="title">Python</div>
@@ -64,12 +65,12 @@ description: "logos of skills and else."
         <div class="title">Shell</div>
     </div>
      <div>
-        <img class="logo" src="/skills/matplotlib.svg" alt="Matploltlib">
+        <img class="logo" src="/skills/matplotlib.svg" alt="Matplotlib">
         <div class="title">Matplotlib</div>
     </div>
     <div>
-        <img class="logo" src="/skills/powerbi.png" alt="PowerBI">
-        <div class="title">PowerBI</div>
+        <img class="logo" src="/skills/powerbi.png" alt="Power BI">
+        <div class="title">Power BI</div>
     </div>
      <div>
         <img class="logo" src="/skills/excel.svg" alt="Excel">
@@ -87,29 +88,8 @@ description: "logos of skills and else."
 
 <div>
 
-<style>
-    #skills-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        grid-gap: 5px;
-    }
 
-    #skills-grid > div {
-        padding: .5em;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #skills-grid > div > img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-</style>
-
-<div id="skills-grid">
+<div class="skills-grid">
     <div>
         <img class="logo" src="/skills/git.svg" alt="Git">
         <div class="title">Git</div>
@@ -128,29 +108,8 @@ description: "logos of skills and else."
 
 <div>
 
-<style>
-    #skills-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        grid-gap: 5px;
-    }
 
-    #skills-grid > div {
-        padding: .5em;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #skills-grid > div > img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-</style>
-
-<div id="skills-grid">
+<div class="skills-grid">
     <div>
         <img class="logo" src="/skills/chess.png" alt="Chess">
         <div class="title">Chess</div>
